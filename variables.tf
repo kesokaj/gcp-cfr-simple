@@ -26,6 +26,7 @@ variable "service_list" {
   type = list(string)
   default = [
     "orgpolicy.googleapis.com",
+    "iam.googleapis.com",
     "compute.googleapis.com",
     "networkmanagement.googleapis.com",
     "servicenetworking.googleapis.com",
